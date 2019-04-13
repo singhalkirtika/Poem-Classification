@@ -1,8 +1,8 @@
 # Poem-Classification
-###DataSet###: The dataset is taken from kaggle
+### DataSet ###: The dataset is taken from kaggle
 (https://www.kaggle.com/ultrajack/modern-renaissance-poetry). There are 573 poems with three different genres: Love (326 poems), 
 Nature (188 poems), Mythology and Folklore (59 poems).
-###PreProcessing### : The poems are processed for:
+### PreProcessin g### : The poems are processed for:
 1. Removal of ‘\r\n’ using a regex expression
 2. Using contractions function for expanding contractions like you’ve → you have, he’s → he is, aren’t → are not and similarly handle other contractions
 3. Removing punctuations
